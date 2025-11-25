@@ -1,0 +1,2 @@
+data/fixations_train2014.json filter=lfs diff=lfs merge=lfs -text
+data/fixations_val2014.json filter=lfs diff=lfs merge=lfs -text
