@@ -1,3 +1,4 @@
 /.cv_venv
 /notebooks/saliency_diffusion_outputs
 /notebooks/data
+notebooks/saliency_ground_truth
