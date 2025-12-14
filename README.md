@@ -29,6 +29,7 @@
 - Launch Jupyter.
 - Execute cells sequentially
 - Adjust `Config` (cell 1) to change paths, image sizes, batch size, or diffusion hyperparameters before re-running.
+- Setup W&B account to log & visualize training metrics
 
 ## Notebook Outputs
 - `notebooks/saliency_diffusion_outputs/last.pt`: latest checkpoint payload (model + optimizer + scheduler).
