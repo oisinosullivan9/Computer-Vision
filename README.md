@@ -23,7 +23,7 @@
 - `data/`: SALICON images (`train/`, `val/`, `test/`) and fixation JSONs (`fixations_train2014.json`, `fixations_val2014.json`).
 - `notebooks/salicon_diffusion.ipynb`: main training and inference notebook.
 - `notebooks/saliency_diffusion_outputs/`: auto-created directory tree for checkpoints and visual artifacts.
-- `weights/`: best performing weights generated from experiemnts
+- `weights/`: best performing weights generated from experiments
 
 ## Running the Notebook
 - Launch Jupyter.
@@ -57,3 +57,6 @@
 - **NSS** (Normalized Scanpath Saliency): Mean normalized saliency at fixation points
 - **AUC-Judd**: Area under ROC curve using all non-fixated pixels as negatives
 - **AUC-Borji**: AUC with randomly sampled non-fixated negatives (shuffled)
+
+### Qualatative Results
+![Results](assets/result.png)
